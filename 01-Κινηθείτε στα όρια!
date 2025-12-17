@@ -3,8 +3,6 @@ from turtle import *
 bill = Turtle()
 bro = Turtle()
 
-
-
 bill.pensize(10)
 bill.forward(200)
 bill.right(90)
