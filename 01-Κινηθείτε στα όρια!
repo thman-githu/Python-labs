@@ -1,0 +1,36 @@
+from turtle import *
+
+bill = Turtle()
+bro = Turtle()
+
+
+
+bill.pensize(10)
+bill.forward(200)
+bill.right(90)
+bill.forward(200)
+bill.right(90)
+bill.forward(400)
+bill.right(90)
+bill.forward(400)
+bill.right(90)
+bill.forward(400)
+bill.right(90)
+bill.forward(200)
+bill.right(90)
+
+bro.pensize(5)
+bro.pencolor("white")
+bro.forward(200)
+bro.right(90)
+bro.forward(200)
+bro.right(90)
+bro.forward(400)
+bro.right(90)
+bro.forward(400)
+bro.right(90)
+bro.forward(400)
+bro.right(90)
+bro.forward(200)
+bro.right(90)
+
