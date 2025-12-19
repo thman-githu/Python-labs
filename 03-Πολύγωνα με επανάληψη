@@ -22,7 +22,7 @@ bill.forward(200)
 bill.backward(400)
 bill.forward(200)
 bill.right(90)
-
+'''
 bill.penup()
 bro.penup()
 bill.goto(-150,150)
@@ -108,16 +108,23 @@ bro3.pencolor("yellow")
 for _ in range(9):
   bro3.forward(50)
   bro3.right(40)
-
-
 '''
-bro.pensize(5)
-bro.pencolor(150,150,80)
-bro.forward(200)
-bro.right(90)
-bro.forward(200)
-bro.right(90)
-bro.forward(200)
-bro.right(90)
-bro.forward(200)
-bro.right(90)'''
+bill4.penup()
+bro4.penup()
+bill4.goto(80,-10)
+bro4.goto(80,-10)
+bill4.pendown()
+bro4.pendown()
+
+
+bill4.pensize(4)
+
+for _ in range(20):
+  bill4.forward(30)
+  bill4.right(18)
+
+bro4.pensize(0.3)
+bro4.pencolor("yellow")
+for _ in range(20):
+  bro4.forward(30)
+  bro4.right(18)
