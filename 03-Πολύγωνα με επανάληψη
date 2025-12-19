@@ -22,7 +22,7 @@ bill.forward(200)
 bill.backward(400)
 bill.forward(200)
 bill.right(90)
-'''
+
 bill.penup()
 bro.penup()
 bill.goto(-150,150)
@@ -108,7 +108,7 @@ bro3.pencolor("yellow")
 for _ in range(9):
   bro3.forward(50)
   bro3.right(40)
-'''
+
 bill4.penup()
 bro4.penup()
 bill4.goto(80,-10)
