@@ -1,0 +1,9 @@
+from turtle import *
+
+x=int(input("Δώσε το μήκος της πλευράς :"))
+thman = Turtle()
+
+thman.write(x)
+for _ in range(4):
+    thman.forward(x)
+    thman.left(90)
