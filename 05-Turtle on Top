@@ -1,0 +1,4 @@
+screen = Screen()
+window = screen.getcanvas().winfo_toplevel()
+window.attributes("-topmost", True)
+window.update()
