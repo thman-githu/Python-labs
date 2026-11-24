@@ -1,5 +1,5 @@
 from turtle import *
-ton = Turtle()
+tom = Turtle()
 
 for _ in range(4):
     tom.forward(100)
