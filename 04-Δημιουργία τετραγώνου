@@ -1,6 +1,6 @@
 from turtle import *
-thman = Turtle()
+ton = Turtle()
 
 for _ in range(4):
-    thman.forward(100)
-    thman.left(90)
+    tom.forward(100)
+    tom.left(90)
