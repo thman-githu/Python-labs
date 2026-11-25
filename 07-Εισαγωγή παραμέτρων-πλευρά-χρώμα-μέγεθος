@@ -1,0 +1,18 @@
+from turtle import *
+
+x=int(input("dose tin pleura :"))
+c=input("dose xroma :")
+s=int(input("dose ink size :"))
+
+tom = Turtle()
+
+screen = Screen()
+window = screen.getcanvas().winfo_toplevel()
+window.attributes("-topmost", True)
+window.update()
+
+tom.pencolor(c)
+tom.pensize(s)
+for _ in range(4):
+    tom.forward(x)
+    tom.left(90)
